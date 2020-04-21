@@ -250,7 +250,7 @@ body {
 	}
 }
 
-/*--------------- about section starts  --------------- */
+/*--------------- section starts  --------------- */
 
 .content {
 	position: absolute;
@@ -264,7 +264,38 @@ section {
 
 
 
-/*--------------- services section starts  --------------- */
+/*--------------- galleri section starts  --------------- */
+
+.galleri{
+
+}
+
+.galleri__section__one{
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	width: 80vw;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.galleri__title{
+	width: 280px;
+	padding: 30px;
+	text-align: right;
+}
+
+.galleri__cover_01 {
+	width: 40%;
+	height: 80%;
+	box-shadow: 10px 10px 10px grey;
+	background: url(assets/galleri/galleri_cover/JustAnna_Galleri_01.jpg) center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
 
 
 /*--------------- our team section starts  --------------- */
