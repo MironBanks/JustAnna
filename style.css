@@ -435,6 +435,42 @@ section {
 	overflow: hidden;
 }
 
+/* section */
+
+.galleri__section__six{
+	position: relative;
+	height: 100vh;
+	background: url(assets/galleri/galleri_assets/JustAnna_06@2x.png) center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	margin: 100px 0;
+}
+
+.galleri__wrapper__section__six{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	margin: 0 10px 0 auto;
+}
+
+.galleri__wrapper__section__six .galleri__title{
+	width: 480px;
+	padding: 30px;
+	text-align: right;
+}
+
+.galleri__cover_06 {
+	width: 60%;
+	height: 60%;
+	box-shadow: 10px 10px 10px grey;
+	background: url(assets/galleri/galleri_cover/JustAnna_Galleri_06.jpg) center no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
 
 
 
