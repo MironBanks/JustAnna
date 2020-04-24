@@ -301,13 +301,9 @@ section {
 	text-align: right;
 }
 
-.galleri__cover_01 {
-	width: 60%;
+.galleri__wrapper__section__one img {
 	height: 80%;
 	box-shadow: 10px 10px 10px grey;
-	background: url(assets/galleri/galleri_cover/JustAnna_Galleri_01.jpg) center no-repeat;
-	background-size: cover;
-	overflow: hidden;
 }
 
 /* section */
@@ -332,13 +328,9 @@ section {
 	margin: 0 auto;
 }
 
-.galleri__cover_02 {
-	width: 60%;
+.galleri__wrapper__section__two img {
 	height: 80%;
 	box-shadow: 10px 10px 10px grey;
-	background: url(assets/galleri/galleri_cover/JustAnna_Galleri_02.jpg) center no-repeat;
-	background-size: cover;
-	overflow: hidden;
 }
 
 
@@ -364,13 +356,9 @@ section {
 	margin: 0 auto 0 10px;
 }
 
-.galleri__cover_03 {
-	width: 60%;
+.galleri__wrapper__section__three img {
 	height: 80%;
 	box-shadow: 10px 10px 10px grey;
-	background: url(assets/galleri/galleri_cover/JustAnna_Galleri_03.jpg) center no-repeat;
-	background-size: cover;
-	overflow: hidden;
 }
 
 
@@ -393,13 +381,9 @@ section {
 	margin: 0 auto;
 }
 
-.galleri__cover_04 {
-	width: 60%;
+.galleri__wrapper__section__four img {
 	height: 80%;
 	box-shadow: 10px 10px 10px grey;
-	background: url(assets/galleri/galleri_cover/JustAnna_Galleri_04.jpg) center no-repeat;
-	background-size: cover;
-	overflow: hidden;
 }
 
 
@@ -426,13 +410,9 @@ section {
 	text-align: left;
 }
 
-.galleri__cover_05 {
-	width: 60%;
+.galleri__wrapper__section__five img {
 	height: 80%;
 	box-shadow: 10px 10px 10px grey;
-	background: url(assets/galleri/galleri_cover/JustAnna_Galleri_05.jpg) center no-repeat;
-	background-size: cover;
-	overflow: hidden;
 }
 
 /* section */
@@ -462,13 +442,9 @@ section {
 	text-align: right;
 }
 
-.galleri__cover_06 {
-	width: 60%;
+.galleri__wrapper__section__six img {
 	height: 60%;
 	box-shadow: 10px 10px 10px grey;
-	background: url(assets/galleri/galleri_cover/JustAnna_Galleri_06.jpg) center no-repeat;
-	background-size: cover;
-	overflow: hidden;
 }
 
 
