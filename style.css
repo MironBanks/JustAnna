@@ -69,17 +69,17 @@ body {
 
 /*--------------- section starts  --------------- */
 .demo a {
-	opacity: .5;
+	opacity: .2;
 }
 
 .demo a:hover {
-  opacity: .2;
+  opacity: .05;
 }
 
-#section10 a {
+#scroll a {
   padding-top: 60px;
 }
-#section10 a span {
+#scroll a span {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -90,7 +90,7 @@ body {
   border-radius: 50px;
   box-sizing: border-box;
 }
-#section10 a span::before {
+#scroll a span::before {
   position: absolute;
   top: 10px;
   left: 50%;
