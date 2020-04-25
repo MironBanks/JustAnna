@@ -7,7 +7,7 @@ body {
 	box-sizing: border-box;
 	margin: 0%;
 	padding: 0%;
-	font-family: 'Poppins' !important;
+	font-family: 'Poppins';
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -17,13 +17,14 @@ body {
 	background: transparent; /* Optional: just make scrollbar invisible */
 }
 
-/*--------------- hero section --------------- */
 
+/*--------------- hero section --------------- */
+/*
 .hero {
 	position: absolute;
 	width: 100%;
 	height: 100vh;
-	background: url(assets/JustAnnaHeader_2@2x.png) center no-repeat;
+	background: url(assets/galleri/galleri_assets/JustAnna500px@2x.png) center no-repeat;
 	background-size: cover;
 	overflow: hidden;
 }
@@ -48,6 +49,8 @@ body {
 	background-size: cover;
 	overflow: hidden;
 }
+*/
+
 
 
 .header {
@@ -60,206 +63,16 @@ body {
 .header h1 {
 	color: #000;
 	font-weight: 300;
-	font-size: 18px !important;
+	font-size: 23px;
 }
 
-@media (max-width: 900px) {
-	.header {
-		left: 50%;
-	}
-
-	.header h1 {
-		font-size: 18px !important;
-		text-align: center;
-	}
-}
-
-/*--------------- navigation --------------- */
-
-.nav {
-	width: 100%;
-	height: 80px;
-	position: fixed;
-	z-index: 6;
-}
-
-.nav #brand {
-	float: left;
-	display: block;
-	margin-left: 40px;
-	line-height: 80px;
-	font-weight: 300;
-	font-size: 18px;
-}
-
-.nav #brand a {
-	color: #000;
-	font-family: Poppins !important;
-	transition: all 500ms ease-out;
-	cursor: pointer;
-}
-
-.nav #brand a:hover {
-	text-decoration: none;
-	color: rgb(156, 156, 156);
-	transition: all 500ms ease-out;
-}
-
-.nav #menu {
-	float: left;
-	right: 40px;
-	position: fixed;
-}
-
-.nav #menu li {
-	padding-left: 40px;
-	display: inline-block;
-	font-weight: lighter !important;
-	text-transform: uppercase;
-	font-size: 14px;
-	line-height: 80px;
-	position: relative;
-	transition: all 500ms ease-out;
-}
-
-.nav #menu li a {
-	font-family: Poppins !important;
-	color: #000;
-	transition: all 500ms ease-out;
-}
-
-.nav #menu li i {
-	font-family: Poppins !important;
-	color: #000;
-	transition: all 500ms ease-out;
-}
-
-.nav #menu li a:hover {
-	text-decoration: none;
-	color: rgb(156, 156, 156);
-	transition: all 500ms ease-out;
-}
-
-#toggle {
-	position: absolute;
-	right: 40px;
-	top: 20px;
-	font-weight: 300;
-	color: #000;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	z-index: 2;
-	width: 30px;
-	height: 30px;
-	float: right;
-	transition: all 0.3s ease-out;
-	visibility: hidden;
-	opacity: 0;
-}
-
-.close-btn {
-	position: absolute;
-	right: 30px;
-	font-weight: 300;
-	color: #fff;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	z-index: 2;
-	top: -2px;
-	line-height: 80px;
-}
-
-#resize {
-	z-index: 2;
-	top: 0px;
-	position: fixed;
-	background: #fff;
-	width: 100%;
-	height: 100%;
-	visibility: hidden;
-	opacity: 0;
-	transition: all 1s ease-out;
-}
-
-#resize #menu {
-	height: 90px;
-	position: absolute;
-	left: 45%;
-	transform: translateX(-40%);
-	text-align: center;
-	display: table-cell;
-	vertical-align: center;
-}
-
-#resize #menu li {
-	display: block;
-	text-align: center;
-	padding: 10px 0;
-	font-size: 50px;
-	text-transform: uppercase;
-	min-height: 50px;
-	font-weight: bold;
-	transition: all 0.3s ease-out;
-}
-
-#resize li:nth-child(1) {
-	margin-top: 140px;
-}
-
-#resize #menu li a {
-	color: #fff;
-}
-
-#resize #menu li a:hover {
-	text-decoration: none;
-}
-
-#resize.active {
-	visibility: visible;
-	opacity: 1;
-}
-
-@media (max-width: 900px) {
-	#toggle {
-		visibility: visible;
-		opacity: 1;
-		margin-top: 6px;
-		margin-right: 4px;
-	}
-
-	nav #brand {
-		margin-left: 10px;
-	}
-
-	#resize ul li a {
-		font-size: 15px;
-		font-family: 'Poppins' !important;
-		font-weight: lighter !important;
-		color: rgb(156, 156, 156) !important;
-		transition: all 500ms ease-out;
-	}
-
-	nav #menu {
-		display: none;
-	}
-}
-
-@media (min-width: 900px) {
-	#resize {
-		visibility: hidden !important;
-	}
-}
 
 /*--------------- section starts  --------------- */
 
 .content {
 	position: absolute;
+	width: 100vw;
 	margin-top: 100vh;
-	width: 100%;
-}
-
-section {
-	padding: 40px 0;
 }
 
 
@@ -268,190 +81,70 @@ section {
 
 .galleri{
 	width: 100vw;
+	max-width: 500px;
 	margin: 0 auto;
 }
 
 .galleri h3{
-	font-size: 26px;
+	font-size: 16px;
 	font-weight: 300;
 }
 
-@media (max-width: 900px) {
-	.galleri h3{
-		font-size: 18px;
-	}
-}
-
-.galleri__section__one{
+.galleri__section{
 	position: relative;
 	height: 100vh;
-	background: url(assets/galleri/galleri_assets/JustAnna_01@2x.png) center no-repeat;
-	background-size: cover;
-	overflow: hidden;
-	margin: 100px 0;
-}
-
-.galleri__wrapper__section__one{
-	width: 60%;
-	height: 100%;
+	width: 90%;
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
-	margin: 0 auto 0 10px;
+	margin: 0 auto;
 }
 
 .galleri__title{
-	width: 280px;
-	padding: 30px;
+	padding: 20px;
 	text-align: right;
 }
 
-.galleri__wrapper__section__one img {
-	height: 80%;
+.galleri__section img {
+	width: 90%;
 	box-shadow: 10px 10px 10px grey;
 }
 
 
-/* section */
-
-
-.galleri__section__two{
-	position: relative;
-	height: 100vh;
-	background: url(assets/galleri/galleri_assets/JustAnna_02@2x.png) center no-repeat;
-	background-size: cover;
-	overflow: hidden;
-	margin: 100px 0;
+.btn {
+  text-decoration: none;
+  padding: 10px 25px;
+  position: relative;
+  cursor: pointer;
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  font-size: 18px;
+  font-weight: 200;
+  color: #222831;
+  text-transform: uppercase;
+  z-index: 2;
 }
 
-.galleri__wrapper__section__two{
-	width: 60%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	margin: 0 auto;
-}
-
-.galleri__wrapper__section__two img {
-	height: 80%;
-	box-shadow: 10px 10px 10px grey;
-}
-
-
-/* section */
-
-
-.galleri__section__three{
-	position: relative;
-	height: 100vh;
-	background: url(assets/galleri/galleri_assets/JustAnna_03@2x.png) center no-repeat;
-	background-size: cover;
-	overflow: hidden;
-	margin: 100px 0;
-}
-
-.galleri__wrapper__section__three{
-	width: 60%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	margin: 0 auto 0 10px;
-}
-
-.galleri__wrapper__section__three img {
-	height: 80%;
-	box-shadow: 10px 10px 10px grey;
-}
-
-
-/* section */
-
-
-.galleri__section__four{
-	position: relative;
-	height: 100vh;
-	margin: 100px 0;
-}
-
-.galleri__wrapper__section__four{
-	width: 60%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-}
-
-.galleri__wrapper__section__four img {
-	height: 80%;
-	box-shadow: 10px 10px 10px grey;
-}
-
-
-/* section */
-
-
-.galleri__section__five{
-	position: relative;
-	height: 100vh;
-	margin: 100px 0;
-}
-
-.galleri__wrapper__section__five{
-	width: 60%;
-	height: 100%;
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-}
-
-.galleri__wrapper__section__five .galleri__title{
-	text-align: left;
-}
-
-.galleri__wrapper__section__five img {
-	height: 80%;
-	box-shadow: 10px 10px 10px grey;
-}
-
-/* section */
-
-.galleri__section__six{
-	position: relative;
-	height: 100vh;
-	background: url(assets/galleri/galleri_assets/JustAnna_06@2x.png) center no-repeat;
-	background-size: cover;
-	overflow: hidden;
-	margin: 100px 0;
-}
-
-.galleri__wrapper__section__six{
-	width: 60%;
-	height: 100%;
-	display: flex;
-	flex-direction: column-reverse;
-	justify-content: center;
-	align-items: center;
-	margin: 0 10px 0 auto;
-}
-
-.galleri__wrapper__section__six .galleri__title{
-	width: 480px;
-	padding: 30px;
-	text-align: right;
-}
-
-.galleri__wrapper__section__six img {
-	height: 60%;
-	box-shadow: 10px 10px 10px grey;
+.btn::after {
+  content: '';
+  right: 30px;
+  top: -10px;
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: #222831;
+  opacity: 0.1;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-image: initial;
+  transform: rotate(45deg);
 }
 
 
@@ -459,24 +152,10 @@ section {
 
 /*--------------- about section starts  --------------- */
 
-.about{
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-}
 
-.about__section__image{
 
-}
 .about__section__text{
-	padding: 0 30px;
-}
-
-.about__section__image img {
-	width: 700px;
+	padding: 20px 30px;
 }
 
 .about__section__text p{
