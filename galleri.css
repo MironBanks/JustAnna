@@ -1,5 +1,6 @@
 
 .gallery {
+  padding-top: 100px;
   width: 100vw;
   height: 100%;
   max-width: 500px;
@@ -9,6 +10,7 @@
 }
 
 .img-container {
+    padding: 20px 10px;
     text-align: center;
     margin: 10px auto;
     cursor: pointer;
@@ -17,6 +19,7 @@
 
 .img-container:hover {
     transform: scale(1.05);
+    padding-bottom: 30px;
   }
 
 img {
@@ -24,6 +27,7 @@ img {
   object-fit: cover;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
+  box-shadow: 10px 10px 10px grey;
 }
 img:hover {
     transform: scale(1.05);
