@@ -64,6 +64,12 @@
 	transition: all 500ms ease-out;
 }
 
+#insta {
+	font-size: 16px;
+	margin: 0 10px 0 40px;
+	justify-content: center;
+}
+
 #toggle {
 	position: absolute;
 	right: 40px;
