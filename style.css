@@ -179,6 +179,24 @@ body {
 	box-shadow: 10px 10px 10px grey;
 }
 
+@media (min-width: 900px) {
+	.galleri {
+		max-width: 1080px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.galleri__section{
+		height: 80%;
+		width: 50%;
+		padding: 40px;
+	}
+
+	.galleri__section img {
+		width: 80%;
+	}
+}
+
 
 .btn {
   text-decoration: none;
